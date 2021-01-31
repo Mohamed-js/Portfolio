@@ -19,8 +19,8 @@ lamp.addEventListener( "click",function () {
 })
 
 
-
-ScrollReveal().reveal('.cards', { delay: 400 });
+ScrollReveal().reveal('body', { delay: 600 });
+// ScrollReveal().reveal('.cards', { delay: 400 });
 ScrollReveal().reveal('.img', { delay: 800 });
 ScrollReveal().reveal('.description', { delay: 1200 });
 ScrollReveal().reveal('.appear', { delay: 500 });
