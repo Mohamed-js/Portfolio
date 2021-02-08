@@ -22,7 +22,6 @@ a:hover {
     flex-flow: column;
 }
 
-
 .jumbotron {
     background: url("../imgs/cover.jpg") left;
     background-size: cover;
@@ -39,7 +38,7 @@ a:hover {
     /* background-color: rgba(250, 250, 250, .7); */
     background-color: rgba(0, 0, 0, .7);
     font-weight: 1000;
-    
+    color: white;
 }
 
 .light-container {
@@ -235,4 +234,41 @@ a:hover {
 
 .contact {
     color: white;
+}
+
+.alert-dark {
+    background-color: white!important;
+    margin: 10px;
+}
+
+.recommend {
+    padding-top: 70px;
+}
+
+.card {
+    border: #9aa4ae 2px solid;
+    border-radius: 8px;
+}
+
+.card img {
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.card1 {
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+
+.card2 {
+    z-index: 2;
+}
+
+.card3 {
+    position: relative;
+    top: 60px;
+    right: 40px;
+    z-index: 0;
 }
