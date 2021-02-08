@@ -33,6 +33,10 @@ a:hover {
     flex-flow: column;
 }
 
+.navbar {
+    background-color: #121212!important;
+}
+
 .jumbotron {
     background: url("../imgs/cover.jpg") left;
     background-size: cover;
@@ -65,7 +69,7 @@ a:hover {
     max-width: 230px;
     max-height: 230px;
     border-radius: 50%;
-    border: 3px solid #0d0d0d;
+    border: 8px solid #121212;
 }
 
 .light-container {
@@ -290,8 +294,10 @@ a:hover {
 }
 
 .card {
-    border: #272727 2px solid;
+    border: #272727 1px solid;
     border-radius: 8px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
 }
 
 .card img {
@@ -317,7 +323,42 @@ a:hover {
     z-index: 0;
 }
 
-
 .card-body {
-    filter: blur(1px);
+    padding: 0;
+    margin: 0;
+    color: white;
+    position: relative;
+    height: 340px;
+    background-color: #121212;
+}
+
+.bg {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+}
+
+.abs {
+    position: absolute;
+    top: 0;
+    transform: translateZ(30px)
+}
+
+.rad {
+    padding: 60px;    
+}
+
+.rad img {
+    max-width: 100%;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    /* border: white solid 2px; */
+}
+
+form .button {
+    background-color: #22cdb0;
+    border: #22cdb0;
+}
+
+a {
+    color: #22cdb0;
 }
