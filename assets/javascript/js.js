@@ -24,3 +24,18 @@ ScrollReveal().reveal('body', { delay: 600 });
 ScrollReveal().reveal('.img', { delay: 800 });
 ScrollReveal().reveal('.description', { delay: 1200 });
 ScrollReveal().reveal('.appear', { delay: 500 });
+
+
+
+
+
+                        let life = true;
+
+                        while (life) {
+                            if (sad() === true) {
+                                sad().stop();
+                                beAwesome();
+                            }
+                        }
+
+

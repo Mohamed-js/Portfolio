@@ -38,10 +38,10 @@ a:hover {
 }
 
 .jumbotron {
-    background: url("../imgs/cover.jpg") left;
+    background: url("../imgs/cover.png");
     background-size: cover;
     background-attachment: fixed;
-    background-position: left;
+    background-position: top;
     height: 600px;
     position: relative;
     display: flex;
@@ -304,6 +304,7 @@ a:hover {
     max-height: 250px;
     object-fit: cover;
     border-radius: 6px;
+    transform: translateZ(30px)
 }
 
 .card1 {
