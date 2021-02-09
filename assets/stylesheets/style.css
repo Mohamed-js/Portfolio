@@ -310,7 +310,7 @@ a:hover {
 .card1 {
     position: relative;
     top: 60px;
-    left: 40px;
+    left: 20px;
 }
 
 .card2 {
@@ -320,7 +320,7 @@ a:hover {
 .card3 {
     position: relative;
     top: 60px;
-    right: 40px;
+    right: 20px;
     z-index: 0;
 }
 
@@ -329,7 +329,7 @@ a:hover {
     margin: 0;
     color: white;
     position: relative;
-    height: 340px;
+    height: 360px;
     background-color: #121212;
 }
 
