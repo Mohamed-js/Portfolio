@@ -532,7 +532,7 @@ a {
     width: 10%;
     height: 20vh;
     background-color: rgb(44, 44, 44);
-
+    animation: dis 1s 8.9s forwards;
     transform-origin: 1px;
     transform:rotateY(-185deg);
     filter: blur(1px);
@@ -582,7 +582,6 @@ a {
 @keyframes foldRighth {
     0% {
         transform:rotateY(-180deg);
-        
     }
 
     50% {
@@ -675,6 +674,8 @@ a {
     }
     to {
         opacity: 0;
+        display: none;
+        z-index: 0;
     }
 }
 @keyframes shakee {
