@@ -33,6 +33,10 @@ a:hover {
     flex-flow: column;
 }
 
+.overflow-hidden {
+    overflow-x: hidden;
+}
+
 .navbar {
     background-color: #121212!important;
 }
@@ -962,4 +966,48 @@ a {
 
 .brick16 {
     animation: foldUp .75s 6s forwards cubic-bezier(.2,.2,.2,.2);
+}
+
+
+
+
+
+@media screen and (max-width:317px) {
+
+    .grid div:last-child {
+        display: flex!important;
+    }
+
+}
+
+@media screen and (max-width:412px) and (min-width: 317px) {
+
+    .grid div:last-child {
+        display: none!important;
+    }
+
+    .grid div:nth-child(odd) {
+        background-color: #f9d74c!important;
+    }
+
+    .grid div:nth-child(even) {
+        background-color: #121217!important;
+    }
+
+}
+
+@media screen and (min-width:507px) and (max-width:767px) {
+
+    .grid div:last-child {
+        display: none;
+    }
+
+    .grid div:nth-child(odd) {
+        background-color: #f9d74c!important;
+    }
+
+    .grid div:nth-child(even) {
+        background-color: #121217!important;
+    }
+
 }
