@@ -1,20 +1,75 @@
 * {
     font-size: 20px;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Aladin', cursive;
-    /* font-family: ; */
-    background-color: #121212;
+    font-family: 'Baloo 2', cursive;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #ffffff;
     color: white;
 }
 
 h2 {
-    border-bottom: #22cdb0 8px solid;
-    border-right:  transparent 15px solid;
+    border-bottom: #dcdcdc 8px solid;
+    border-right: #8e8e8e 15px solid;
     padding-bottom: 5px;
     margin-bottom: 40px;
     width: fit-content;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.logo {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cover-text {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.cover-text h1 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.cover-text p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #ababab;
+}
+
+.cover-text button {
+    background-color: #4b6cc1;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+    width: fit-content!important;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
 }
 
 hr {
@@ -40,69 +95,101 @@ a:hover {
     overflow-x: hidden;
 }
 
-.navbar {
-    background-color: #121212!important;
+.top-nav {
+    background-color: #191a1d!important;
+    padding-top: 60px;
+    
+}
+
+.top-nav ul {
+    margin: auto;
 }
 
 .jumbotron {
-    background: url("../imgs/cover.png");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: top;
-    height: 600px;
+    background-color: #191a1d;
+    height: 85vh;
     position: relative;
     display: flex;
-    justify-content: center;
-}
-
-.jumbotron .container {
-    position: relative;
-    max-height: 220px;
-    top: 45%;
-    width: 100%;
-    border-radius: 10px;
-    /* background-color: rgba(250, 250, 250, .7); */
-    background-color: rgba(0, 0, 0, .7);
-    font-weight: 1000;
-    color: white;
-}
-
-.jumbotron .img {
-    position: absolute;
-    bottom: -120px;
-}
-
-.jumbotron .img img {
-    max-width: 230px;
-    max-height: 230px;
-    border-radius: 50%;
-    border: 8px solid #121212;
-}
-
-.light-container {
-    display: flex;
-    flex-flow: row;
+    justify-content: space-around;
     align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
 }
 
-.light {
-    font-size: 40px;
+.cover-img {
+    height: 480px;
+    margin-top: 0!important;
+    background-color: #121316;
+    text-align: center;
+    width: 400px;
 }
 
-.light div {
-    width: 60px;
-    height: 1px;
-    background-image: url("../imgs/lamposff.png");
-    background-position: center;
-    background-size: cover;
-    color: green;
+.cover-img img {
+    width: calc(100% - 80px);
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 40px;
 }
 
-.light div:hover {
-    width: 70px;
-    height: 90px;
-    background-image: url("../imgs/lampon.png");
+
+
+.project .text {
+    width: 34%;
+    color: #5e5e5e;
+    font-size: 1.625rem;
+    font-weight: 300;
 }
+
+.project .text h2 {
+    font-size: 3.25rem;
+    font-weight: 400;
+    color: black;
+    padding-right: 10px;
+}
+
+
+.project .text .list{
+    color: #919191;
+    padding: 0;
+    padding-top: 30px;
+}
+
+
+.project .text .list li {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.project .pic {
+    width: 60%;
+    height: 650px;
+    background-color: #ececec;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.project .pic img {
+    position: relative;
+    width: calc(100% - 100px);
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    top: 50px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px rgba(156, 156, 156, .8);
+}
+
+.sec {
+    max-height: 650px;
+}
+
+
+
+
+
+
+
 
 
 .cards {
@@ -352,9 +439,7 @@ form .button {
     border: #22cdb0;
 }
 
-a {
-    color: #22cdb0;
-}
+
 
 
 
@@ -381,13 +466,7 @@ a {
         padding-bottom: 5px;
     }
 
-    .jumbotron .img {
-        bottom: -90px;
-    }
-
-    .jumbotron .img img {
-        max-width: 180px;
-    }
+    
 
     .grid {
         grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
