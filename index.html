@@ -19,8 +19,20 @@
   <body data-aos="fade-up">
     <!-- Image and text -->
     <nav class="top-nav">
-      <ul class="max-width">
-        <a href="#" class="logo">ATEF</a>
+      <ul class="max-width d-flex flex-row justify-content-between">
+        <div>
+          <a href="#" class="logo has-border">ATEF <div class="border"></div></a>
+        </div>
+        
+
+        <div class="w-75">
+          <a href="#" class="position-relative pb-1 has-border2">About <div class="border2"></div></a>
+
+          <a href="#" class="position-relative pb-1 has-border2">Skills & Experience <div class="border2"></div></a>
+  
+          <a href="#" class="position-relative pb-1 has-border2">Contact <div class="border2"></div></a>
+        </div>
+        
       </ul>
     </nav>
 
@@ -30,7 +42,7 @@
         <div class="cover-text pr-5 w-50">
           <h1>Hey, I'm Mohamed Atef.</h1>
           <p>A web developer and designer from Alexandria in EGYPT. I create websites to help people go further online.</p>
-          <button class="btn btn-block">My Projects</button>
+          <button class="btn btn-block zooms">My Projects</button>
         </div>
         <div class="cover-img m-5 rounded">
           <img src="assets/imgs/profile.jpg" alt="Profile Image" class="rounded">
@@ -43,7 +55,9 @@
 
     <div id="content" class="content">
       <br><br><br><br><br><br>
-
+      <div class="container-fluid max-width">
+        <h3 class="sec-head">Featured:</h3>
+      </div>
       <div class="d-flex flex-row align-items-center justify-content-between project sec max-width">
         <div class="pic">
           <img src="assets/imgs/sc.png" alt="">
@@ -52,9 +66,9 @@
           <h2>Sportive</h2>
           A simple sports news website where you can create & vote for articles.
           <ul class="list">
-            <li><i class="fas fa-desktop"></i> WEB DESIGN</li>
-            <li><i class="fas fa-code"></i> BACKEND DEVELOPMENT</li>
-            <li><i class="fas fa-pen-nib"></i> LOGO DESIGN</li>
+            <li class="d-flex align-items-center"><i class="fas fa-desktop"></i> WEB DESIGN</li>
+            <li class="d-flex align-items-center"><i class="fas fa-code"></i> BACKEND DEVELOPMENT</li>
+            <li class="d-flex align-items-center"><i class="fas fa-pen-nib"></i> LOGO DESIGN</li>
           </ul>
         </div>
       </div>
@@ -62,6 +76,18 @@
 
 
 
+      <div class="rec position-relative">
+        <div class="borderT"></div>
+        <div class="flex-col align-items-center text">
+          <q>I've worked with Atef as a coding partner and a team member during our study in Microverse, He is a fast learner, a great collaborator. He mastered PHP, Mysql, Ruby, Rails, HTML, and CSS. Atef's soft skills are communication and networking. To conclude Atef is a valuable asset and a great teammate.</q>
+        </div>
+        <div class="borderB"></div>
+        <div class="img">
+          <img src="assets/imgs/denis.jpg" alt="">
+        </div>
+        <div class="name">Denis Lafontant</div>
+        <div class="text">Coding partner</div>
+      </div>
 
 
 
@@ -74,8 +100,7 @@
 
 
 
-
-
+<!-- 
       <div class="skills appear overflow-hidden" data-aos="fade-up">
         <div class="container">
           <h2>Skills:</h2>
@@ -99,10 +124,10 @@
             <div data-aos="zoom-in-down" style="background-color: #f9d74c;"><img class="one" src="assets/imgs/logo-jquery.svg" alt="" srcset=""></div>
           </div>
         </div>
-      </div>
+      </div> -->
 
 
-      <div class="experience appear overflow-hidden" data-aos="fade-right" style="background: #f9d74c;">
+      <!-- <div class="experience appear overflow-hidden" data-aos="fade-right" style="background: #f9d74c;">
         <div class="container">
           <span><img src="assets/imgs/brush.png" alt=""></span><h2>Experience</h2>
           <h3>Mentor</h3>
@@ -120,11 +145,11 @@
 
 
         </div>
-      </div>
+      </div> -->
 
 
       <!-- style="background-color: #472baa;" -->
-      <div class="recommend appear overflow-hidden" data-aos="zoom-in">
+      <!-- <div class="recommend appear overflow-hidden" data-aos="zoom-in">
         <div class="container">
           <h2>Recommendations:</h2>
         </div>
@@ -167,89 +192,45 @@
             </div>
           </div>
         </div>
+      </div> -->
+ 
+      <div class="container-fluid max-width">
+        <h3 class="sec-head">Featured:</h3>
       </div>
-<hr>
-      <!-- style="background-color: #ff455c;" -->
-      <div class="projects appear overflow-hidden" data-aos="fade-down" >
-        <div class="container">
-          <h2>Featured projects:</h2>
-          <nav class="d-flex flex-row">
-            <!-- <a href="" class="m-2">All</a>
-            <a href="" class="m-2">Design</a>
-            <a href="" class="m-2">Fullstack</a> -->
-          </nav>
-          
-          <div class="d-flex flex-row flex-wrap justify-content-center">  
-              <div class="p-card rounded mt-2">
-                <img src="assets/imgs/capstone-front.png" alt="First-project" class="p-card-img">
-                <div>
-                  <a href="https://mohamed-js.github.io/Capstone-Project-1/" class="btn view-btn">View</a>
-                </div>
-              </div>
-              
-              <div class="p-card rounded mt-2">
-                <img src="assets/imgs/capstone-rails.jpg" alt="Second-project" class="p-card-img">
-                <div>
-                  <a href="https://sportive-atef.herokuapp.com/" class="btn view-btn">View</a>
-                </div>
-              </div>
-            
-            <!--  -->
-            
-              <div class="p-card rounded mt-2">
-                <img src="assets/imgs/capstone-rails.jpg" alt="Third-project" class="p-card-img">
-                <div>
-                  <a href="https://sportive-atef.herokuapp.com/" class="btn view-btn">View</a>
-                </div>
-              </div>
-
-              <div class="p-card rounded mt-2">
-                <img src="assets/imgs/capstone-rails.jpg" alt="First-project" class="p-card-img">
-                <div>
-                  <a href="https://sportive-atef.herokuapp.com/" class="btn view-btn">View</a>
-                </div>
-              </div>
-            
-            <!--  -->
-            
-              <div class="p-card rounded mt-2">
-                <img src="assets/imgs/capstone-rails.jpg" alt="First-project" class="p-card-img">
-                <div>
-                  <a href="https://sportive-atef.herokuapp.com/" class="btn view-btn">View</a>
-                </div>
-              </div>
-
-              <div class="p-card rounded mt-2">
-                <img src="assets/imgs/capstone-rails.jpg" alt="First-project" class="p-card-img">
-                <div>
-                  <a href="https://sportive-atef.herokuapp.com/" class="btn view-btn">View</a>
-                </div>
-              </div>
-            
-            <!--  -->
-            
-              <div class="p-card rounded mt-2">
-                <img src="assets/imgs/capstone-rails.jpg" alt="First-project" class="p-card-img">
-                <div>
-                  <a href="https://sportive-atef.herokuapp.com/" class="btn view-btn">View</a>
-                </div>
-              </div>
-
-              <div class="p-card rounded mt-2">
-                <img src="assets/imgs/capstone-rails.jpg" alt="First-project" class="p-card-img">
-                <div>
-                  <a href="https://sportive-atef.herokuapp.com/" class="btn view-btn">View</a>
-                </div>
-              </div>
-            
-          </div>
+      <div class="services d-flex justify-content-around max-width m-auto">
+        <div class="service">
+          <i class="fas fa-desktop"></i>
+          <div class="borderB"></div>
+          <h3>Web Development</h3>
+          <h6>Responsive and Fast</h6>
+          <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
         </div>
-      </div> 
-<hr>
-      <!-- style="background-color: #212121;" -->
+
+        <div class="service">
+          <i class="fas fa-pen-nib"></i>
+          <div class="borderB"></div>
+          <h3>Web Design</h3>
+          <h6>User Focused</h6>
+          <p>A website should be designed for the people who will use it, so that's exactly what I do. User focused design should be the primary goal of any website.</p>
+        </div>
+      </div>
+
+      <div class="rec position-relative">
+        <div class="borderT"></div>
+        <div class="flex-col align-items-center text">
+          <q>I have recently collaborated with Mohammed Atef for my online store for which he designed the website. It was a professional experience and he was such an understanding, creative and flexible person. To sum up, he is a person I highly recommend for anyone seeking innovation and I'm looking forward to working with him again.</q>
+        </div>
+        <div class="borderB"></div>
+        <div class="img">
+          <img src="assets/imgs/omnia.jpg" alt="">
+        </div>
+        <div class="name">Omnia Salah</div>
+        <div class="text">Client</div>
+      </div>
+      
       <div class="contact appear overflow-hidden" data-aos="fade-up">
-        <div class="container">
-          <h2>Contact:</h2>
+        <div class="container-fluid max-width">
+          <h3 class="sec-head">Contact:</h3>
         </div>
         <div class="container d-flex flex-row">
           <div class="w-50 rad">
@@ -273,7 +254,7 @@
               <label for="exampleInputPassword1">Message</label>
               <textarea type="text" class="form-control" id="exampleInputPassword3" placeholder="Message"></textarea>
             </div>
-            <button type="submit" class="btn btn-success btn-block button">Send</button>
+            <button type="submit" class="btn btn-block button contact-btn zooms">Send</button>
           </form>
         </div><br>
       </div>
@@ -281,12 +262,12 @@
   
     </div>
 
-    <footer class="p-3 flex-row justify-content-between align-items-center" data-aos="fade-down" style="background-color: #0d0d0d; color: #22cdb0!important; font-size: 25px;">
+    <footer class="p-3 flex-row justify-content-between align-items-center" data-aos="fade-down" style="background-color: #0d0d0d; color: #4b6cc1!important; font-size: 25px;">
       <div class="">
-        <a href="https://www.facebook.com/demoVejetta" class="mr-1"><i class="fab fa-facebook"></i></a>
-        <a href="https://twitter.com/Demovejetta" class="mr-1"><i class="fab fa-twitter"></i></a>
-        <a href="https://github.com/Mohamed-js" class="mr-1"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/mohamed-js/" class="mr-1"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/demoVejetta" class="mr-1 purple"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/Demovejetta" class="mr-1 purple"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/Mohamed-js" class="mr-1 purple"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/mohamed-js/" class="mr-1 purple"><i class="fab fa-linkedin"></i></a>
       </div>
       <div>
         <h3>Designed by:</h3>
@@ -295,162 +276,6 @@
     </footer>
 
 
-
-<!-- 
-
-    <div class="container-bricks overflow-hidden">
-      <div class="brick brick1">
-
-      </div>
-      <div class="brick brick2">
-          
-      </div>
-      <div class="brick brick3">
-          
-      </div>
-      <div class="brick brick4">
-          
-      </div>
-      <div class="brick brick5">
-          
-      </div>
-      <div class="brick brickU brick6">
-          
-      </div>
-      <div class="brick brickR brick7">
-          
-      </div>
-      <div class="brick brickR brick8">
-          
-      </div>
-      <div class="brick brickR brick9">
-          
-      </div>
-      <div class="brick brickR brick10">
-          
-      </div>
-      <div class="brick brick11">
-          
-      </div>
-      <div class="brick brick12">
-          
-      </div>
-      <div class="brick brick13">
-          
-      </div>
-      <div class="brick brick14">
-          
-      </div>
-      <div class="brick brick15">
-          
-      </div>
-      <div class="brick brickU brick16">
-          
-      </div>
-      <div class="brick brickR brick17">
-          
-      </div>
-      <div class="brick brickR brick18">
-          
-      </div>
-      <div class="brick brickR brick19">
-          
-      </div>
-      <div class="brick brickR brick20">
-          
-      </div>
-      <div class="brick brick21">
-          
-      </div>
-      <div class="brick brick22">
-          
-      </div>
-      <div class="brick brick23">
-          
-      </div>
-      <div class="brick brick24">
-          
-      </div>
-      <div class="brick brick25">
-          
-      </div>
-      <div class="brick brickR brick26">
-          
-      </div>
-      <div class="brick brickR brick27">
-          
-      </div>
-      <div class="brick brickR brick28">
-          
-      </div>
-      <div class="brick brickR brick29">
-          
-      </div>
-      <div class="brick brickR brick30">
-          
-      </div>
-      <div class="brick brick31">
-
-      </div>
-      <div class="brick brick32">
-          
-      </div>
-      <div class="brick brick33">
-          
-      </div>
-      <div class="brick brick34">
-          
-      </div>
-      <div class="brick brick35">
-          
-      </div>
-      <div class="brick brickD brick36">
-          
-      </div>
-      <div class="brick brickR brick37">
-          
-      </div>
-      <div class="brick brickR brick38">
-          
-      </div>
-      <div class="brick brickR brick39">
-          
-      </div>
-      <div class="brick brickR brick40">
-          
-      </div>
-      <div class="brick brick41">
-          
-      </div>
-      <div class="brick brick42">
-          
-      </div>
-      <div class="brick brick43">
-          
-      </div>
-      <div class="brick brick44">
-          
-      </div>
-      <div class="brick brick45">
-          
-      </div>
-      <div class="brick brickD brick46">
-          
-      </div>
-      <div class="brick brickR brick47">
-          
-      </div>
-      <div class="brick brickR brick48">
-          
-      </div>
-      <div class="brick brickR brick49"  >
-          
-      </div>
-      <div class="brick brickR brick50">
-          
-      </div>
-      
-  </div> -->
 
 
 

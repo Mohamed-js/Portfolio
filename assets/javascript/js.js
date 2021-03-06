@@ -29,13 +29,6 @@ ScrollReveal().reveal('.appear', { delay: 500 });
 
 
 
-                        let life = true;
-
-                        while (life) {
-                            if (sad() === true) {
-                                sad().stop();
-                                beAwesome();
-                            }
-                        }
 
 
+                 
