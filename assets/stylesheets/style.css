@@ -133,7 +133,7 @@ a:hover {
     color: #4b6cc1;
     position: fixed;
     left: -5px;
-    top: 20vh;
+    top: 35vh;
     width: 60px;
     background-color: #191a1d;
 }
@@ -170,6 +170,7 @@ a:hover {
     justify-content: space-around;
     align-items: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
+    padding-bottom: 80px;
 }
 
 .cover-img {
@@ -384,6 +385,8 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .rec .text q{
@@ -592,7 +595,7 @@ h2 {
     }
 
     .rec q {
-        font-size: 1.25rem!important;
+        font-size: 1rem!important;
     }
 
     .rec .name {
@@ -649,6 +652,12 @@ h2 {
     .borderT {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .button {
+        font-size: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
     }
 }
 
