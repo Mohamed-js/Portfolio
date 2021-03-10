@@ -224,20 +224,24 @@ h2 {
 .project .pic {
     width: 60%;
     height: 650px;
-    background-color: #ececec;
+    /* background-color: #ececec; */
+    background-image: url("../imgs/housing3.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     text-align: center;
     border-radius: 3px;
 }
 
 .project .pic img {
     position: relative;
-    width: calc(100% - 100px);
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
+    height: 500px;
+    object-fit: contain;
+    object-position: left;
     top: 50px;
+    transform: rotate(-25deg);
+    left: -230px;
     border-radius: 3px;
-    box-shadow: 5px 5px 10px rgba(156, 156, 156, .8);
 }
 
 .sec {
@@ -515,6 +519,10 @@ h2 {
         width: 100%;
     }
 
+    .project .pic img {
+        left: -280px;
+    }
+
     .project .text{
         width: 100%;
         margin-top: 120px;
@@ -571,6 +579,10 @@ h2 {
 
     .project .pic {
         height: auto;
+    }
+
+    .project .pic img {
+        left: -200px;
     }
 
     h2 {
@@ -658,6 +670,17 @@ h2 {
         font-size: 20px;
         padding-top: 8px;
         padding-bottom: 8px;
+    }
+}
+
+@media only screen and (max-width:575px){
+
+    .project img {
+        display: none;
+    }
+
+    .project .pic {
+        height: 200px;
     }
 }
 
