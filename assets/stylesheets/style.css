@@ -682,6 +682,68 @@ h2 {
     }
 }
 
+.menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,.97);
+    transition: .5s;
+}
+
+.menu a {
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: .5s;
+}
+
+.menu a:hover {
+    background-color: #4b6cc1;
+    cursor: pointer;
+}
+
+.menu a:last-child {
+    color: rgb(255, 0, 0);
+}
+
+.closed {
+    opacity: 0;
+    display: none!important;
+}
+
+.opened {
+    opacity: 1;
+    display: flex!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
