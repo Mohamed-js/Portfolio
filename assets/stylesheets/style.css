@@ -19,6 +19,10 @@ h2 {
     width: fit-content;
 }
 
+strong {
+    font-weight: bold;
+}
+
 ul {
     list-style-type: none;
 }
@@ -60,6 +64,10 @@ a:hover {
     color: #ababab;
 }
 
+.black {
+    color: black;
+}
+
 .purple {
     color: #4b6cc1!important;
 }
@@ -76,7 +84,7 @@ a:hover {
     border: none;
 }
 
-.cover-text button {
+.cover-text a {
     background-color: #4b6cc1;
     background: linear-gradient(to right,#4b6cc1 30%, #4564b100 );
     color: white;
@@ -172,6 +180,10 @@ a:hover {
     padding-bottom: 80px;
 }
 
+.j2 {
+    min-height: 50vh;
+}
+
 .cover-img {
     position: relative;
     margin-top: 0!important;
@@ -210,6 +222,11 @@ h2 {
     font-weight: 400;
     color: black;
     padding-right: 10px;
+}
+
+.sp-head {
+    font-family: cursive, serif;
+    font-size: 2.75rem;
 }
 
 
@@ -409,10 +426,14 @@ h2 {
 }
 
 .rec .img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     overflow: hidden;
+    border-top: 15px solid transparent;
+    border-right: 15px solid #4b6cc1;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid transparent;
 }
 
 .rec .img img {
@@ -508,6 +529,11 @@ h2 {
         min-height: 100vh;
     }
 
+    .j2 .max-width {
+        flex-direction: row!important;
+        min-height: 50vh!important;
+    }
+
     .cover-img {
         width: 100%;
         margin-top: 50px!important;
@@ -581,7 +607,7 @@ h2 {
         font-size: 1.25rem;
     }
 
-    .cover-text button {
+    .cover-text a {
         font-size: 1.25rem;
     }
 
@@ -890,9 +916,9 @@ h2 {
 .experience h2 {
     z-index: 1000;
     position: absolute;
-    top: 45px;
+    top: 51px;
     left: 10px;
-    border-bottom: none;
+    border: none;
 }
 
 .appear span {
@@ -902,9 +928,10 @@ h2 {
 }
 
 .appear span img {
-    max-width: 250px;
+    max-width: 350px;
     position: relative;
-    left: -25px;
+    left: -35px;
+    top: -5px;
     z-index: 100;
 }
 
