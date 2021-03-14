@@ -315,11 +315,11 @@ h2 {
 }
 
 .zooms {
-    transition: .5s;
+    transition: .5s!important;
 }
 
 .zooms:hover {
-    transform: scale(1.1);
+    transform: scale(1.1)!important;
 }
 
 
