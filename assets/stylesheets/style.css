@@ -72,6 +72,11 @@ a:hover {
     color: #4b6cc1!important;
 }
 
+.bg-purple {
+    background-color: #4b6cc1!important;
+    color: white;
+}
+
 .contact-btn {
     background-color: #4b6cc1;
     color: white;
@@ -267,6 +272,25 @@ h2 {
     border-radius: 3px;
 }
 
+.pic2 {
+    width: 60%;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic2 img {
+    max-width: 100%;
+    position: relative;
+    max-height: 400px;
+    border-radius: 8px;
+    object-fit: contain;
+    object-position: left;
+    transform: rotate(-45deg);
+}
+
 .sec {
     margin: auto;
 }
@@ -414,6 +438,7 @@ h2 {
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    
 }
 
 .rec .text q{
@@ -451,6 +476,12 @@ h2 {
     font-size: 1.25rem;
     font-weight: 300;
     color: #1d1d1d;
+    background: #ececec;
+    background-image: url(../imgs/pen.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: color-burn;
+    background-size: contain;
 }
 
 .services {
@@ -707,7 +738,7 @@ h2 {
 
 @media only screen and (max-width:575px){
 
-    .project img {
+    .pic img {
         display: none;
     }
 
@@ -753,6 +784,10 @@ h2 {
 .opened {
     opacity: 1;
     display: flex!important;
+}
+
+.no-border {
+    border: none;
 }
 
 
@@ -1053,7 +1088,10 @@ h2 {
         font-size: 1.75rem;
         top: 62px;
     }
-    
+
+    .pic2 {
+        width: 90%;
+    }
 
     .grid {
         grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
