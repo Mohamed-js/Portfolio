@@ -69,16 +69,17 @@ a:hover {
 }
 
 .purple {
-    color: #4b6cc1!important;
+    /* color: #4b6cc1!important; */
+    color: #ff1d2b;
 }
 
 .bg-purple {
-    background-color: #4b6cc1!important;
+    background-color: #ff1d2b!important;
     color: white;
 }
 
 .contact-btn {
-    background-color: #4b6cc1;
+    background-color: #ff1d2b;
     color: white;
     font-weight: 400;
     font-size: 1.5rem;
@@ -90,8 +91,8 @@ a:hover {
 }
 
 .cover-text a {
-    background-color: #4b6cc1;
-    background: linear-gradient(to right,#4b6cc1 30%, #4564b100 );
+    background-color: #ff1d2b;
+    background: linear-gradient(to right,#ff1d2b  30%, #4564b100 );
     color: white;
     font-weight: 400;
     font-size: 1.5rem;
@@ -142,7 +143,7 @@ a:hover {
     display: none;
     font-size: 30px;
     padding: 10px!important;
-    color: #4b6cc1;
+    color: #ff1d2b;
     position: fixed;
     left: -5px;
     top: 35vh;
@@ -305,9 +306,9 @@ h2 {
     bottom: 3px;
     left: 0;
     height: 7px;
-    border: 1px#4b6cc1 solid!important;
+    border: 1px#ff1d2b solid!important;
     border-radius: 8px;
-    background-color: #4b6cc1;
+    background-color: #ff1d2b;
 }
 
 .border2 {
@@ -316,17 +317,17 @@ h2 {
     bottom: 3px;
     left: 0;
     height: 7px;
-    border: 1px#4b6cc1 solid!important;
+    border: 1px#ff1d2b solid!important;
     border-radius: 8px;
-    background-color: #4b6cc1;
+    background-color: #ff1d2b;
 }
 
 .borderT {
     width: 140px;
     height: 7px;
-    border: 1px#4b6cc1 solid!important;
+    border: 1px#ff1d2b solid!important;
     border-radius: 8px;
-    background-color: #4b6cc1;
+    background-color: #ff1d2b;
     margin-bottom: 30px;
     margin-top: 30px;
 }
@@ -334,9 +335,9 @@ h2 {
 .borderB {
     width: 140px;
     height: 7px;
-    border: 1px#4b6cc1 solid!important;
+    border: 1px#ff1d2b solid!important;
     border-radius: 8px;
-    background-color: #4b6cc1;
+    background-color: #ff1d2b;
     margin-top: 30px;
     margin-bottom: 80px;
 }
@@ -458,7 +459,7 @@ h2 {
     border-radius: 50%;
     overflow: hidden;
     border-top: 15px solid transparent;
-    border-right: 15px solid #4b6cc1;
+    border-right: 15px solid #ff1d2b;
     border-bottom: 15px solid transparent;
     border-left: 15px solid transparent;
 }
@@ -499,7 +500,7 @@ h2 {
     width: 100%!important;
     padding: 40px;
     border-radius: 3px;
-    border-top: 6px solid #4b6cc1;
+    border-top: 6px solid #ff1d2b;
     background-color: #ececec;
     justify-content: space-between;
     text-align: center;
@@ -772,7 +773,7 @@ h2 {
 }
 
 .menu a:hover {
-    background-color: #4b6cc1;
+    background-color: #ff1d2b;
     cursor: pointer;
 }
 
