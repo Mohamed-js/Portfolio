@@ -272,6 +272,10 @@ h2 {
     border-radius: 3px;
 }
 
+.svg-inline--fa {
+    font-size: larger;
+}
+
 .pic2 {
     width: 60%;
     text-align: center;
