@@ -12,10 +12,8 @@ body {
 }
 
 h2 {
-  border-bottom: #dcdcdc 8px solid;
-  border-right: #8e8e8e 15px solid;
   padding-bottom: 5px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   width: fit-content;
 }
 
@@ -240,9 +238,11 @@ h2 {
 }
 
 .project .text .list {
-  color: #919191;
   padding: 0;
-  padding-top: 30px;
+  padding-top: 10px;
+}
+.project .text .list a {
+  margin-top: 20px;
 }
 
 .project .text h2 {
@@ -250,7 +250,6 @@ h2 {
 }
 
 .project .text .list li {
-  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -1071,7 +1070,6 @@ h2 {
 .rad img {
   max-width: 100%;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  /* border: white solid 2px; */
 }
 
 @media screen and (max-width: 360px) {
