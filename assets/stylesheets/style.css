@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 16px;
   font-weight: 300;
   background-color: #ffffff;
@@ -41,12 +41,13 @@ a:hover {
 
 .visit {
   color: #ababab;
+  font-size: 1.25rem;
 }
 
 .big-icon {
-  font-size: 35px;
-  margin-bottom: 60px;
-  margin-top: 60px;
+  font-size: 1.75rem;
+  margin-bottom: 30px;
+  margin-top: 30px;
   transition: 0.2;
 }
 
@@ -63,12 +64,12 @@ a:hover {
 }
 
 .cover-text h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 400;
 }
 
 .cover-text p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 300;
   color: #ababab;
 }
@@ -104,11 +105,10 @@ a:hover {
   background: linear-gradient(to right, #ff2d3a 30%, #4564b100);
   color: white;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   width: fit-content !important;
-  padding: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 5 15px;
+
   border-radius: 50px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -139,8 +139,8 @@ a:hover {
 }
 
 .top-nav {
-  background-color: #191a1d !important;
-  padding-top: 60px;
+  background-color: #171717 !important;
+  padding-top: 20px;
 }
 
 .top-nav ul {
@@ -184,7 +184,8 @@ a:hover {
 }
 
 .jumbotron {
-  background-color: #191a1d;
+  background-color: #171717;
+  padding: 20px 0;
   /* min-height: 90vh; */
   position: relative;
   display: flex;
@@ -192,7 +193,7 @@ a:hover {
   justify-content: space-around;
   align-items: center;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 .j2 {
@@ -203,30 +204,26 @@ a:hover {
   position: relative;
   margin-top: 0 !important;
   background-color: #0e0e0e;
-  width: 400px;
-
-  /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%!important; */
-  /* overflow-x: hidden; */
-  /* background: linear-gradient(to top, black, rgb(17, 17, 17)30%, transparent 70%); */
+  width: 280px;
 }
 
 .cover-img img {
-  width: calc(100% - 80px);
-  top: 40px;
+  width: calc(100% - 60px);
+  top: 20px;
   object-fit: cover;
   position: relative;
-  right: -40px;
+  right: -30px;
 }
 
 .project .text {
   width: 34%;
   color: #5e5e5e;
-  font-size: 1.625rem;
+  font-size: 1.25rem;
   font-weight: 300;
 }
 
 h2 {
-  font-size: 3.25rem;
+  font-size: 2.25rem;
   font-weight: 400;
   color: black;
   padding-right: 10px;
@@ -259,8 +256,8 @@ h2 {
 
 .project .pic {
   width: 60%;
-  height: 650px;
-  background-image: url('../imgs/diagnoserr.png');
+  height: 350px;
+  background-image: url("../imgs/diagnoserr.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -270,10 +267,10 @@ h2 {
 
 .project .pic img {
   position: relative;
-  height: 390px;
+  height: 290px;
   object-fit: contain;
   object-position: left;
-  top: 110px;
+  top: 30px;
   transform: rotate(-45deg);
   left: -200px;
   border-radius: 3px;
@@ -334,8 +331,8 @@ h2 {
   border: 1px#ff2d3a solid !important;
   border-radius: 8px;
   background-color: #ff2d3a;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .borderB {
@@ -344,8 +341,8 @@ h2 {
   border: 1px#ff2d3a solid !important;
   border-radius: 8px;
   background-color: #ff2d3a;
-  margin-top: 30px;
-  margin-bottom: 80px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .has-border:hover > :last-child {
@@ -433,10 +430,32 @@ h2 {
     opacity: 0;
   }
 }
+.rec-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item {
+  text-align: center;
+  color: black;
+  height: 550px;
+  background-color: #ececec;
+}
+
+.carousel-item .quote {
+  font-size: 18px;
+  max-width: 300px;
+}
+
+.carousel-item p,
+.carousel-item h6 {
+  color: black;
+}
 
 .rec {
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%);
-  min-height: 110vh;
+  /* clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%); */
+  /* min-height: 110vh; */
   background: #ececec;
   display: flex;
   flex-direction: column;
@@ -448,12 +467,13 @@ h2 {
 
 .rec .text q {
   max-width: 850px;
-  font-size: 1.5rem;
+  font-size: 0.75rem;
   text-align: center;
   color: black;
 }
 
-.rec .img {
+.carousel-item .img {
+  margin: auto;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -464,7 +484,7 @@ h2 {
   border-left: 15px solid transparent;
 }
 
-.rec .img img {
+.carousel-item .img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -477,7 +497,7 @@ h2 {
   color: #484848;
 }
 
-.rec .text {
+.recs.text {
   font-size: 1.25rem;
   font-weight: 300;
   color: #1d1d1d;
@@ -1427,7 +1447,7 @@ h2 {
   }
 
   92% {
-    background-image: url('../imgs/glass-min.png');
+    background-image: url("../imgs/glass-min.png");
     background-color: transparent;
   }
 
@@ -1443,7 +1463,7 @@ h2 {
     transform: rotate(0deg);
     filter: blur(0);
     background-color: transparent;
-    background-image: url('glass.png');
+    background-image: url("glass.png");
     position: absolute;
     top: 0;
     width: 100%;
