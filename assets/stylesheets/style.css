@@ -331,8 +331,8 @@ h2 {
   border: 1px#ff2d3a solid !important;
   border-radius: 8px;
   background-color: #ff2d3a;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .borderB {
@@ -341,8 +341,8 @@ h2 {
   border: 1px#ff2d3a solid !important;
   border-radius: 8px;
   background-color: #ff2d3a;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .has-border:hover > :last-child {
@@ -439,18 +439,37 @@ h2 {
 .carousel-item {
   text-align: center;
   color: black;
-  height: 550px;
+  height: 100vh;
   background-color: #ececec;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.carousel-item.active {
+  display: flex;
 }
 
 .carousel-item .quote {
   font-size: 18px;
-  max-width: 300px;
+  max-width: 320px;
+}
+
+.carousel-indicators li {
+  background-color: rgb(254, 128, 128);
+}
+
+.carousel-indicators li.active {
+  background-color: rgb(176, 0, 0);
 }
 
 .carousel-item p,
 .carousel-item h6 {
   color: black;
+}
+
+.carousel-caption p {
+  font-size: 16px;
 }
 
 .rec {
@@ -514,10 +533,11 @@ h2 {
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 30px;
   margin-bottom: 90px !important;
+  justify-items: center;
 }
 
 .service {
-  width: 100% !important;
+  width: 90% !important;
   padding: 40px;
   border-radius: 3px;
   border-top: 6px solid #ff2d3a;
@@ -542,19 +562,19 @@ h2 {
 }
 
 .service h3 {
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: black;
 }
 
 .service h6 {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   font-weight: 300;
   color: black;
 }
 
 .service p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
   color: rgb(80, 80, 80);
 }
@@ -1099,7 +1119,7 @@ h2 {
     padding-bottom: 0 !important;
   }
 
-  footer h3 {
+  footer h5 {
     margin-bottom: 0.5rem !important;
   }
 
